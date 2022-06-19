@@ -1,0 +1,42 @@
+body {
+    background-color: beige;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+p.center {
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    font-size: 16px;
+}
+
+h2.cadastro {
+    color: white;
+    background-color: blue;
+    text-align: left;
+    margin-top: 10px;
+    padding-top:10px;
+    border-top:turquoise;
+    border-style:dashed;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

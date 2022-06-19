@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PUCPR</title>
+    <meta charset="utf-8" >
+    <link href="style.css" rel="stylesheet" >
+    <link href="C:/Users/Avell/Desktop/puc - atalhos/videos/projeto/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
+</head>
+<body>
+
+    <div> 
+        <a href="usuario.html" class="nav-menu"> Usuário</a>
+        <a href="pet.html" class="nav-menu"> Pet</a>
+        <a href="servico.html" class="nav-menu"> Serviço</a>
+        <a href="agenda.html" class="nav-menu"> Agenda</a>
+    </div>
+
+    <h2> PETSHOP </h2>
+    <form>
+        <label for="flogin">Login:</label><br>
+        <input type = "text" id="flogin" name="flogin">
+        <br><br>
+        <label for="fsenha">Senha:</label><br>
+        <input type = "text" id="fsenha" name="fsenha">
+        <br><br>
+        <label for="fnivel">Nível de acesso:</label><br>
+        <select name="fnivel" id="fnivel">
+            <option value="admin">Administrador</option>
+            <option value="colab">Colaborador</option>
+          </select>
+        <br><br>
+        <input type="submit" value="Cadastrar">
+        <br><br>
+    </form>
+
+    <table>
+        <tr>
+          <th>Login</th>
+          <th>Nível de acesso</th>
+          <th>Editar</th>
+          <th>Excluir</th>
+        </tr>
+        <tr>
+          <td>ana@gmail.com</td>
+          <td>Administrador</td>
+          <td><i class="fas fa-edit"></i></td>
+          <td><i class="fas fa-trash"></i></td>
+        </tr>
+        <tr>
+          <td>x@gmail.com</td>
+          <td>Administrador</td>
+          <td><i class="fas fa-edit"></i></td>
+          <td><i class="fas fa-trash"></i></td>
+        </tr>
+        <tr>
+          <td>Open@gmail.com</td>
+          <td>Colaborador</td>
+          <td><i class="fas fa-edit"></i></td>
+          <td><i class="fas fa-trash"></i></td>
+        </tr>
+      </table>
+</body>
+</html>
